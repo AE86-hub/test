@@ -18,7 +18,7 @@ public class Main {
       System.out.println(errExitMsg);
       System.exit(exitCode);
     }
-
+% making any change
     int[] numRange = {Integer.parseInt(args[0]), Integer.parseInt(args[1])};
     if (numRange[0] > numRange[1] | numRange[0] < 0 | numRange[1] < 0) {
       System.out.println(errExitMsg);
